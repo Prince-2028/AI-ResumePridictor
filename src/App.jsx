@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 
 const App = () => {
   const [name, setName] = useState("");
@@ -7,14 +8,33 @@ const App = () => {
   const [linkdinurl, setLinkdinurl] = useState("");
   // const [resume, setResume] = useState(null);
 
-  const handleResumeChange = (e) => {
-    const file = e.target.files[0];
-    setResume(file);
-    console.log(resume);
-  };
+  // const handleResumeChange = (e) => {
+  //   const file = e.target.files[0];
+  //   setResume(file);
+  //   console.log(resume);
+    
+  // };
 
   const submitbtn = (e) => {
     e.preventDefault();
+
+    axios
+      .post("http://localhost:3000/api/data", {
+        name: name,
+        email: email,
+        skills: skills,
+        linkdinurl: linkdinurl,
+      })
+      .then(function (response) {
+        console.log("Response:", response);
+        setName("")
+        setEmail("")
+        setLinkdinurl("")
+        setSkills("")
+      })
+      .catch(function (error) {
+        console.log("Error:", error);
+      });
   };
 
   return (
