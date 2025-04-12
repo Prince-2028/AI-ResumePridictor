@@ -1,12 +1,52 @@
-# React + Vite
+# 🧠 ResumeCreateAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ResumeCreateAI** is a modern and clean AI-enhanced resume builder built using **React.js** and **Tailwind CSS**. The goal is to help users create professional resumes quickly and efficiently with a user-friendly interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [resumecreateai.netlify.app](https://resumecreateai.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Simple, clean, and responsive design
+- 🧑‍💼 Sections for Personal Details, Skills, Education, Experience, and Projects
+- ✍️ Easy-to-fill forms to enter your resume data
+- 📄 Real-time resume preview
+- 📥 Export-ready layout for downloading or printing
+- 🎨 Fully responsive design using Tailwind CSS
+- 🚀 Deployed and accessible on Netlify
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| **React.js** | Frontend framework for building UI |
+| **Tailwind CSS** | Utility-first CSS framework for styling |
+| **Netlify** | For deployment and hosting |
+
+---
+
+## 📸 Screenshots
+
+Coming Soon! (You can add preview images of the app here)
+
+---
+
+## 📦 Installation & Setup
+
+To run this project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/resumecreateai.git
+
+# Navigate to the project directory
+cd resumecreateai
+
+# Install dependencies
+npm install
+
+# Run the application
+npm start
