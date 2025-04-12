@@ -20,17 +20,11 @@
 
 ## 🛠️ Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| **React.js** | Frontend framework for building UI |
+| Technology       | Description                             |
+| ---------------- | --------------------------------------- |
+| **React.js**     | Frontend framework for building UI      |
 | **Tailwind CSS** | Utility-first CSS framework for styling |
-| **Netlify** | For deployment and hosting |
-
----
-
-## 📸 Screenshots
-
-Coming Soon! (You can add preview images of the app here)
+| **Netlify**      | For deployment and hosting              |
 
 ---
 
@@ -50,3 +44,4 @@ npm install
 
 # Run the application
 npm start
+```
